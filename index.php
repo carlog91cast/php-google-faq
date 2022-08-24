@@ -63,7 +63,21 @@
 
     ?>
 
-   
+<header>
+        <div class="header-top text-center">
+            <h2>Privacy e termini</h2>
+        </div>
+        <div>
+            <ul class="d-flex justify-content-center">
+                <li> <a href="#"></a> Introduzione </li>
+                <li> <a href="#"></a> Norme sulla privacy </li>
+                <li> <a href="#"></a> Termini di servizio </li>
+                <li> <a href="#"></a> Tecnologie </li>
+                <li> <a href="#"></a> Domande frequenti </li>
+            </ul>
+        </div>
+
+    </header>
 </body>
 
 </html>

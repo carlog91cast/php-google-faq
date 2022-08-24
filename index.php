@@ -76,6 +76,18 @@
                 <li> <a href="#"></a> Domande frequenti </li>
             </ul>
         </div>
+        <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <?php foreach ($faqs as $faq) { ?>
+                        <h3><?php echo $faq['question'] ?></h3>
+                        <p><?php echo $faq['answer'] ?></p>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </main>
 
     </header>
 </body>
